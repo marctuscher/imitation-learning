@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "venv/bin/python3.6",
+    "python.jediEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.banditEnabled": true,
+    "python.linting.enabled": true
+}
