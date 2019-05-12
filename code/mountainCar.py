@@ -22,25 +22,36 @@ class Agent:
 #%%
 agent = Agent()
 def play_once(env, agent, render=False, verbose=False):
+    traj = []
     observation = env.reset()
+    traj += [observation]
     episode_reward = 0.
     for step in itertools.count():
         if render:
             env.render()
         action = agent.decide(observation)
         observation, reward, done, _ = env.step(action)
+        traj += [observation]
         episode_reward += reward
         if done:
             break
     if verbose:
         print('get {} rewards in {} steps'.format(
                 episode_reward, step + 1))
-    return episode_reward
+    return episode_reward, np.array(traj)
 
 #%%
-episode_rewards = [play_once(env, agent, render=True) for _ in range(10)]
-print('average episode rewards = {}'.format(np.mean(episode_rewards)))
+data = []
+for _ in range(10):
+    _ , traj = play_once(env, agent)
+    data.append(traj)
 
+#%%
+data = np.array(data)
+print(data.shape)
+
+#%%
+print(data[0].shape)
 
 
 #%%
