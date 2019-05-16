@@ -1,0 +1,38 @@
+{
+    "ac_kwargs":	{},
+    "actor_critic":	"mlp_actor_critic",
+    "clip_ratio":	0.2,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7faed2845268>",
+    "epochs":	200,
+    "exp_name":	"PendulumSupervise_tar0-035",
+    "gamma":	0.999,
+    "lam":	0.999,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7faed2850b00>":	{
+            "epoch_dict":	{},
+            "exp_name":	"PendulumSupervise_tar0-035",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"models/Pendulum-v0/2019-05-16_PendulumSupervise_tar0-035/2019-05-16_07-52-28-PendulumSupervise_tar0-035_s30",
+            "output_file":	{
+                "<_io.TextIOWrapper name='models/Pendulum-v0/2019-05-16_PendulumSupervise_tar0-035/2019-05-16_07-52-28-PendulumSupervise_tar0-035_s30/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"PendulumSupervise_tar0-035",
+        "output_dir":	"models/Pendulum-v0/2019-05-16_PendulumSupervise_tar0-035/2019-05-16_07-52-28-PendulumSupervise_tar0-035_s30"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0006,
+    "save_freq":	10,
+    "seed":	30,
+    "steps_per_epoch":	12000,
+    "target_kl":	0.035,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "vf_lr":	0.018
+}
