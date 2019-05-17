@@ -1,8 +1,19 @@
 #%%
-from D4PG.play import play
-import tensorflow as tf
+import numpy as np
+import pickle
+
 #%%
-tf.reset_default_graph()
-play()
+with open('data/pendulum.pkl', 'rb') as f:
+    data = pickle.load(f)
+
+#%%
+X = data[0]
+y = data[1]
+#%%
+len(X)
+#%%
+len(y)
+
+#%%
 
 #%%
