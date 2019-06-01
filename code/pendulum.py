@@ -34,9 +34,15 @@ model.init_hmm_kbins(demos)
 #%%
 model.em(demos, reg=1e-3)
 #%%
+q =  demos[0][0][0:2]
+#%%
+q
+#%%
+model.sigma[0][0:2, 0:2]
+#%%
 model.sigma[0]
 #%%
-msg = model.predict(demos[0][0][0:3])
+msg = model.predict(demos[0][0][0:2])
 
 print(msg)
 #%%
