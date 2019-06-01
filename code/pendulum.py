@@ -43,7 +43,7 @@ model.sigma[0][0:2, 0:2]
 model.sigma[0]
 #%%
 msg = model.predict(demos[0][0][0:2])
-
+print(demos[0][0][2:4])
 print(msg)
 #%%
 #gmm = pbd.GMM(nb_states=4, nb_dim=4, mu=model.mu, sigma=model.sigma, lmbda=model.lmbda, priors=model.priors)
