@@ -5,7 +5,6 @@
 
 
 #%%
-
 import numpy as np
 import pickle
 import pbdlib as pbd
@@ -42,7 +41,7 @@ model.sigma[0][0:2, 0:2]
 #%%
 model.sigma[0]
 #%%
-msg = model.predict(demos[0][0][0:2])
+msg = model.predict(demos[0][0][0:2], 0)
 print(demos[0][0][2:4])
 print(msg)
 #%%
