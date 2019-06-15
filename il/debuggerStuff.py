@@ -106,13 +106,13 @@ def model_step_using_opt(t, kappa_p=0.3, kappa_v=0.1, model=model):
 def plan_trajectory(model, kappa_p=0.3, steps=20, timePerPhase=1):
     B.sync(C)
     ik_path = C.komo_path(1, 2, timePerPhase, False)
-    ik_path.setConfigurations(C)
     path = []
     times = []
     trajectory = []
     currentTime = 0
+    q_rai = C.getJointState()
     for t in range(steps):
-        q_rai, q_dot = C.getJointState_qdot()
+        ik_path.setConfigurations(C)
         q = np.zeros((7, ))
         for name in right_joints:
             q[mapping[name]['ros']] = q_rai[mapping[name]['rai']]
@@ -136,7 +136,7 @@ def plan_trajectory(model, kappa_p=0.3, steps=20, timePerPhase=1):
         currentTime += timePerPhase
         times.append(currentTime)
         trajectory.append(np.concatenate([q, q_dot]))
-    return (path, currentTime), trajectory
+    return (path, times), trajectory
 
 
 
@@ -175,7 +175,9 @@ def run_demo(demo):
         time.sleep(1)
         B.move([q_rai], [0.1], True)
 
-trajectory = run_model(20, True)
+(path, times) ,trajectory = plan_trajectory(model)
+B.move(path, times, False)
+B.wait()
 
 def plan_demo(pos1, pos2, pos3, start=q_home):
     # first generate target frames

@@ -1,14 +1,14 @@
 #%%
-%reload_ext autoreload
-%autoreload 2
-%matplotlib inline
+#%reload_ext autoreload
+#%autoreload 2
+#%matplotlib inline
 #%%
 import rosbag
 import pathlib
 import os
 import numpy as np
 #%%
-p = pathlib.Path('/home/niklas/git/uni/imitation-learning/bagfiles')
+p = pathlib.Path('/home/marc/git/uni/imitation-learning/bagfiles')
 os.chdir(p)
 files = os.listdir(p)
 #%%
@@ -36,8 +36,8 @@ len(demos[3])
 #%%
 import pickle
 #%%
-with open("/home/niklas/git/uni/imitation-learning/bagfiles/dataset.pkl", "wb") as f:
-    pickle.dump(demos, f, pickle.HIGHEST_PROTOCOL)
+#with open("/home/niklas/git/uni/imitation-learning/bagfiles/dataset.pkl", "wb") as f:
+#    pickle.dump(demos, f, pickle.HIGHEST_PROTOCOL)
 
 #%%
 import pbdlib as pbd
@@ -49,18 +49,21 @@ model = pbd.HMM(7, 14)
 model.init_hmm_kbins(demos)
 
 #%%
-model.em(demos, obs_fixed=False, left_to_right=True)
+model.em(demos, obs_fixed=True, left_to_right=False)
 
 #%%
 np.set_printoptions(precision=6)
 
 #%%
-model.plot()
+#model.plot()
 #%%
 for i in range(600):
-    msg = model.predict(demos[1][i][0:7], i)
-    print("pr: ", msg)
-    print("gt: ", demos[1][i][7:])
+    msg = model.predict_qdot(demos[1][i][0:7], i)
+    print("pr_qdot: ", msg)
+    print("gt_qdot: ", demos[1][i][7:])
+    msg = model.predict_q(msg,demos[1][i][0:7], i )
+    print("pr_q: ", msg)
+    print("gt_q: ", demos[1][i][:7])
     print('\n')
 
 #%%
@@ -126,16 +129,8 @@ q_new = np.zeros((7,))
 #%%
 for name in right_joints:
     q_new[mapp[name]['ros']] = q[mapp[name]['rai']]
-
-
 #%%
 len(q_new)
-
-
-#%%
-q_dot_new = model.predict(q_new, 0)
-
-
 #%%
 q_dot_rai = np.zeros((17,))
 for name in right_joints:
