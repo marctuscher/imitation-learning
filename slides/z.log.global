@@ -1,0 +1,359 @@
+** compiled at:     May 24 2019 10:56:52
+** execution start: 1970-01-01_01:00:00.000000
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/imitation-learning/slides'
+
+util.cpp:cd_file:1118(3) entering path '../../robotics-course/rai-robotModels/baxter' from '/home/niklas/git/uni/imitation-learning/slides'
+
+util.cpp:getIs:1147(3) opening input file 'baxter_new.g'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'baxter_clean2.g'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'torso' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'base_link.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'base' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'PEDESTAL.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'head' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'H0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'head' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'H1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'upper_shoulder' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'S0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'upper_shoulder' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'S0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'lower_shoulder' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'S1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'lower_shoulder' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'S1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'upper_elbow' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'E0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'upper_elbow' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'E0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'lower_elbow' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'E1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'lower_elbow' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'E1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'upper_forearm' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'W0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'upper_forearm' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'W0.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'lower_forearm' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'W1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'lower_forearm' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'W1.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'wrist' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'W2.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'wrist' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'W2.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'electric_gripper_base.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'electric_gripper_base.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'half_round_tip.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'half_round_tip.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'paddle_tip.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'electric_gripper/fingers' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'paddle_tip.ply'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/imitation-learning/slides'
+
+graph.cpp:RegistryInitializer:1255(3) opening config file 'rai.cfg'
+graph.cpp:RegistryInitializer:1261(3)  - failed
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)          rosNodeName =  test [N3rai6StringE] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/imitation-learning/slides'
+
+util.cpp:cd_file:1118(3) entering path '/home/niklas/git/uni/robotics-course/rai/rai/Core/../../../rai-robotModels/baxter' from '/home/niklas/git/uni/imitation-learning/slides'
+
+util.cpp:getIs:1147(3) opening input file 'baxter.g'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'baxter_clean.g'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'torso' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'base_link_collision.STL'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:cd_file:1118(3) entering path 'base' from '/home/niklas/git/uni/robotics-course/rai-robotModels/baxter'
+
+util.cpp:getIs:1147(3) opening input file 'pedestal_link_collision.STL'
+
+util.cpp:cd_start:1110(3) entering path '/home/niklas/git/uni/imitation-learning/slides'
+
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+../../rai/RosCom/roscom.h:Subscriber:129(0) subscribing to topic '/robot/joint_states' <N11sensor_msgs11JointState_ISaIvEEE> into var '/robot/joint_states'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+roscom.h:Subscriber:129(0) subscribing to topic '/robot/end_effector/right_gripper/state' <N16baxter_core_msgs17EndEffectorState_ISaIvEEE> into var '/robot/end_effector/right_gripper/state'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+roscom.h:Subscriber:129(0) subscribing to topic '/robot/end_effector/left_gripper/state' <N16baxter_core_msgs17EndEffectorState_ISaIvEEE> into var '/robot/end_effector/left_gripper/state'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3) Motion/TaskMapTransition/posCoeff =     0 [d] (default!)
+util.tpp:getParameterBase:65(3) Motion/TaskMapTransition/velCoeff =     0 [d] (default!)
+util.tpp:getParameterBase:65(3) Motion/TaskMapTransition/accCoeff =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)                Hrate =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)          opt/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)    opt/stopTolerance =  0.01 [d] (default!)
+util.tpp:getParameterBase:65(3)   opt/stopFTolerance =   0.1 [d] (default!)
+util.tpp:getParameterBase:65(3)   opt/stopGTolerance =    -1 [d] (default!)
+util.tpp:getParameterBase:65(3)        opt/stopEvals =  1000 [j] (default!)
+util.tpp:getParameterBase:65(3)        opt/stopIters =  1000 [j] (default!)
+util.tpp:getParameterBase:65(3)       opt/stopOuters =  1000 [j] (default!)
+util.tpp:getParameterBase:65(3)    opt/stopLineSteps =    10 [j] (default!)
+util.tpp:getParameterBase:65(3)    opt/stopTinySteps =    10 [j] (default!)
+util.tpp:getParameterBase:65(3)         opt/initStep =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/minStep =    -1 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/maxStep =   0.2 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/damping =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/stepInc =   1.5 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/stepDec =   0.5 [d] (default!)
+util.tpp:getParameterBase:65(3)       opt/dampingInc =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)       opt/dampingDec =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)            opt/wolfe =  0.01 [d] (default!)
+util.tpp:getParameterBase:65(3)   opt/nonStrictSteps =     0 [j] (default!)
+util.tpp:getParameterBase:65(3)    opt/allowOverstep =     0 [b] (default!)
+util.tpp:getParameterBase:65(3) opt/constrainedMethod =     2 [i] (default!)
+util.tpp:getParameterBase:65(3)           opt/muInit =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)         opt/muLBInit =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)        opt/aulaMuInc =     2 [d] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+newton.cpp:step:54(-2) you're calling a newton step with initial function value = NAN
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
