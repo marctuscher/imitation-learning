@@ -357,3 +357,6 @@ newton.cpp:step:54(-2) you're calling a newton step with initial function value 
 util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
 util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
 util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
