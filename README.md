@@ -38,6 +38,11 @@ Install [pbdlib-python](https://gitlab.idiap.ch/rli/pbdlib-python) as pip packag
 pip install git+https://github.com/marctuscher/pbdlib
 ```
 
+Note: if you also want to run the additional material about HMMs, install hmms as pip package:
+```
+pip install git+https://github.com/marctuscher/HMMs
+```
+
 ## Running
 
 Just run
