@@ -41,9 +41,13 @@ jupyter notebook
 ```
 from the repo's root directory.
 
+## Presentation
+
+Viewing the notebook as a proper presentation relies on https://github.com/damianavila/RISE/. Follow the instructions in the documentation to install it.
 
 ## References
 
 - https://www.idiap.ch/~scalinon/papers/Calinon-RAM2010.pdf
 - https://gitlab.idiap.ch/rli/pbdlib-python
 - https://github.com/MarcToussaint/rai
+- https://github.com/damianavila/RISE/
