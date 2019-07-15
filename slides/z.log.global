@@ -192,3 +192,32 @@ util.cpp:cd_start:1110(3) entering path '/home/marc/git/uni/imitation-learning/s
 
 util.tpp:getParameterBase:65(3)               useRos =     0 [b] (default!)
 util.tpp:getParameterBase:65(3)               useRos =     0 [b] (default!)
+util.tpp:getParameterBase:65(3)         KOMO/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)          opt/verbose =     1 [i] (default!)
+util.tpp:getParameterBase:65(3)    opt/stopTolerance =  0.01 [d] (default!)
+util.tpp:getParameterBase:65(3)   opt/stopFTolerance =   0.1 [d] (default!)
+util.tpp:getParameterBase:65(3)   opt/stopGTolerance =    -1 [d] (default!)
+util.tpp:getParameterBase:65(3)        opt/stopEvals =  1000 [j] (default!)
+util.tpp:getParameterBase:65(3)        opt/stopIters =  1000 [j] (default!)
+util.tpp:getParameterBase:65(3)       opt/stopOuters =  1000 [j] (default!)
+util.tpp:getParameterBase:65(3)    opt/stopLineSteps =    10 [j] (default!)
+util.tpp:getParameterBase:65(3)    opt/stopTinySteps =    10 [j] (default!)
+util.tpp:getParameterBase:65(3)         opt/initStep =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/minStep =    -1 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/maxStep =   0.2 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/damping =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/stepInc =   1.5 [d] (default!)
+util.tpp:getParameterBase:65(3)          opt/stepDec =   0.5 [d] (default!)
+util.tpp:getParameterBase:65(3)       opt/dampingInc =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)       opt/dampingDec =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)            opt/wolfe =  0.01 [d] (default!)
+util.tpp:getParameterBase:65(3)   opt/nonStrictSteps =     0 [j] (default!)
+util.tpp:getParameterBase:65(3)    opt/allowOverstep =     0 [b] (default!)
+util.tpp:getParameterBase:65(3) opt/constrainedMethod =     2 [i] (default!)
+util.tpp:getParameterBase:65(3)           opt/muInit =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)         opt/muLBInit =     1 [d] (default!)
+util.tpp:getParameterBase:65(3)        opt/aulaMuInc =     2 [d] (default!)
+** execution stop: 2019-07-15_11:02:31.823630
+** real time: 82.2808sec
+** CPU time: 72.8sec
+** system (includes I/O) time: 107.76sec
