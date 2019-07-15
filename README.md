@@ -33,6 +33,11 @@ Compile rai:
 make
 ```
 
+Install [pbdlib-python](https://gitlab.idiap.ch/rli/pbdlib-python) as pip package:
+```
+pip install git+https://gitlab.idiap.ch/rli/pbdlib-python
+```
+
 ## Running
 
 Just run
