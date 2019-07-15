@@ -40,3 +40,10 @@ Just run
 jupyter notebook
 ```
 from the repo's root directory.
+
+
+## References
+
+- https://www.idiap.ch/~scalinon/papers/Calinon-RAM2010.pdf
+- https://gitlab.idiap.ch/rli/pbdlib-python
+- https://github.com/MarcToussaint/rai
