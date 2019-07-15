@@ -5,7 +5,7 @@ The algorithm proposed in the paper is tested on the Baxter Robot using [rai](ht
 
 The presentation and the code is located in [this](slides/slides_clean.ipynb) jupyter notebook.
 
-## Installation
+## Setup
 
 Running the notebook needs a few initial steps to set up all dependencies. First, install ROS melodic: http://wiki.ros.org/melodic/Installation/Ubuntu
 
