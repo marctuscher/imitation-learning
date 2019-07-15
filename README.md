@@ -35,7 +35,7 @@ make
 
 Install [pbdlib-python](https://gitlab.idiap.ch/rli/pbdlib-python) as pip package:
 ```
-pip install git+https://gitlab.idiap.ch/rli/pbdlib-python
+pip install git+https://github.com/marctuscher/pbdlib
 ```
 
 ## Running
